@@ -8,5 +8,5 @@ import { MatchModel } from './model/MatchModel';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.full;
-  matchModel: MatchModel = { title: 'Chennai Express' };
+  matchModel: MatchModel = { title: 'Chennai vs Bangluru' };
 }
