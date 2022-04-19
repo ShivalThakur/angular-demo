@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MatchModel } from '../model/MatchModel';
 
 @Component({
   selector: 'app-matches',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./matches.component.css']
 })
 export class MatchesComponent implements OnInit {
-
+ @Input() matchModel : MatchModel
   constructor() { }
 
   ngOnInit() {
